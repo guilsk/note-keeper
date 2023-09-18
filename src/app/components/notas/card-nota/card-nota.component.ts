@@ -11,8 +11,10 @@ import { Nota } from '../nota';
 export class CardNotaComponent {
   @Input() nota: Nota = {
     id: 0,
-    titulo: 'Lavar o cachorro 🦮',
-    conteudo: 'Pegar a toalha > Pegar o Shampoo',
+    titulo: '',
+    conteudo: '',
     tema: 'dark',
   };
+
+  constructor(){}
 }
