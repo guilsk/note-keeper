@@ -31,10 +31,7 @@ export class EditarNotaComponent implements OnInit {
 
   editarNota() {
     this.notaService.editar(this.nota).subscribe((nota: Nota) => {
-      this.toastService.success(
-        `Nota "${nota.titulo}" editada com sucesso.`,
-        'Sucesso'
-      );
+      this.toastService.success(`Nota "${nota.titulo}" editada com sucesso.`, 'Sucesso');
 
       this.router.navigate(['/notas', 'listar']);
     });
