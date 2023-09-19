@@ -7,15 +7,18 @@
       "tema": "info"
     }
   ],
-
   "categorias": [
     {
-      "id":1,
+      "id": 1,
       "titulo": "Categoria de Teste"
     },
     {
-      "id":2,
-      "titulo":"Não sei mais"
+      "id": 2,
+      "titulo": "Não sei mais"
+    },
+    {
+      "titulo": "Agora sei",
+      "id": 3
     }
   ]
 }

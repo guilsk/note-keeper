@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Categoria } from '../categoria';
-
+import { Categoria } from 'src/app/models/categoria';
 @Component({
   selector: 'app-categoria',
   templateUrl: './card-categoria.component.html',

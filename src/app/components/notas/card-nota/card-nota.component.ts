@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Nota } from '../nota';
+import { Nota } from 'src/app/models/nota';
 
 // One-way Data Binding
 
