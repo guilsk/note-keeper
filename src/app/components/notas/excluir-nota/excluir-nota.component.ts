@@ -18,7 +18,7 @@ export class ExcluirNotaComponent implements OnInit {
     private router: Router,
     private toastService: ToastrService
   ) {
-    this.nota = new Nota('', '', 'dark', 0);
+    this.nota = new Nota('', '', 'dark', 0, 1);
   }
 
   ngOnInit(): void {

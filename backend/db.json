@@ -1,3 +1,21 @@
 {
-  "notas": []
+  "notas": [
+    {
+      "id": 1,
+      "titulo": "Card Nota de Teste",
+      "conteudo": "Esse é apenas um card de test pra Nota",
+      "tema": "info"
+    }
+  ],
+
+  "categorias": [
+    {
+      "id":1,
+      "titulo": "Categoria de Teste"
+    },
+    {
+      "id":2,
+      "titulo":"Não sei mais"
+    }
+  ]
 }

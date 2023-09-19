@@ -14,6 +14,7 @@ export class CardNotaComponent {
     titulo: '',
     conteudo: '',
     tema: 'dark',
+    categoriaId: 1
   };
 
   constructor(){}
